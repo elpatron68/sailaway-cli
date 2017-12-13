@@ -6,3 +6,6 @@ src/test.py
 /Include
 /Lib
 /Scripts
+/sailaway_cli.egg-info
+/pip-selfcheck.json
+/src/sailaway_cli.egg-info

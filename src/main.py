@@ -1,20 +1,12 @@
 import sys
 import api
 import gpsd
+import click
 
-def usage():
-    pass
-
+@click.command()
+@click.argument('email')
+@click.argument('password')
 def main():
-    argvn = len(sys.argv)
-
-    print(sys.argv)
-
-    # No args, usage
-    if argvn < 2:
-        usage()
-        sys.exit()
-
     # login
     elif argvn > 1 and sys.argv[1] == 'login':
         email = None
