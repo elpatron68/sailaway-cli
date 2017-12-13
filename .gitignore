@@ -1,3 +1,8 @@
 src/__pycache__
 src/test.py
 *.auth
+/tcl
+/.vscode
+/Include
+/Lib
+/Scripts
